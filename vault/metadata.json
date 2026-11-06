@@ -23,6 +23,14 @@
       "difficulty": "Advanced",
       "published_date": "2026-11-06",
       "summary": "Eliminating thundering herd problems on popular cache expirations using optimal probabilistic early recomputation."
+    },
+    {
+      "id": "bloom-filters-cache-screening",
+      "title": "Space-Efficient Cache Screening Using Probabilistic Bloom Filters",
+      "category": "algorithms",
+      "difficulty": "Intermediate",
+      "published_date": "2026-11-06",
+      "summary": "Preventing cache pollution from one-hit-wonders using bitwise Bloom Filters with $O(k)$ operations and minimal memory overhead."
     }
   ],
   "last_index": -1,
