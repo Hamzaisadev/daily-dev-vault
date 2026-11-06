@@ -1,0 +1,46 @@
+name: Daily Dev Vault Automation
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC (11:00 AM PKT)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual one-click trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  publish-daily-entry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: ⚙️ Configure Git Author
+        run: |
+          git config --global user.name "Hamza Ishaq"
+          git config --global user.email "ishaqhamza212@gmail.com"
+
+      - name: 🚀 Generate New Engineering Deep Dive
+        run: |
+          python scripts/generator.py
+
+      - name: 📦 Commit and Push to Main
+        run: |
+          git status
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "feat(vault): automated daily engineering deep dive 🚀"
+            git push origin main
+            echo "Successfully shipped daily entry to GitHub!"
+          else
+            echo "No changes detected to commit."
+          fi

@@ -1,0 +1,30 @@
+{
+  "published": [
+    {
+      "id": "distributed-rate-limiting",
+      "title": "Distributed Rate Limiting with Token Bucket & Atomic Redis Lua",
+      "category": "system-design",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-06",
+      "summary": "Building a fault-tolerant, race-condition-free distributed rate limiter handling 100k+ req/sec using Token Bucket algorithm executed atomically in Redis Lua."
+    },
+    {
+      "id": "transactional-outbox-pattern",
+      "title": "Reliable Event Publishing with the Transactional Outbox Pattern",
+      "category": "system-design",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-06",
+      "summary": "Guaranteeing dual-write consistency between relational databases and message brokers (Kafka/RabbitMQ) without distributed two-phase commits."
+    },
+    {
+      "id": "cache-stampede-xfetch",
+      "title": "Mitigating Cache Stampedes with the XFetch Probabilistic Algorithm",
+      "category": "performance",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-06",
+      "summary": "Eliminating thundering herd problems on popular cache expirations using optimal probabilistic early recomputation."
+    }
+  ],
+  "last_index": -1,
+  "last_updated": "2026-11-06"
+}
