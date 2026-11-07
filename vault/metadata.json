@@ -31,8 +31,16 @@
       "difficulty": "Intermediate",
       "published_date": "2026-11-06",
       "summary": "Preventing cache pollution from one-hit-wonders using bitwise Bloom Filters with $O(k)$ operations and minimal memory overhead."
+    },
+    {
+      "id": "webrtc-data-channels-p2p",
+      "title": "Sub-Millisecond Peer-to-Peer Data Sync with WebRTC DataChannels",
+      "category": "backend",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-07",
+      "summary": "Architecting direct browser-to-browser UDP/SCTP data pipelines bypassing central application servers for zero-latency multiplayer and file synchronization."
     }
   ],
   "last_index": -1,
-  "last_updated": "2026-11-06"
+  "last_updated": "2026-11-07"
 }
