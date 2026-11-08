@@ -39,8 +39,16 @@
       "difficulty": "Advanced",
       "published_date": "2026-11-07",
       "summary": "Architecting direct browser-to-browser UDP/SCTP data pipelines bypassing central application servers for zero-latency multiplayer and file synchronization."
+    },
+    {
+      "id": "jwt-security-key-rotation",
+      "title": "Production-Grade JWT Architecture: Asymmetric RS256 & JWKS Key Rotation",
+      "category": "security",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-08",
+      "summary": "Eliminating shared symmetric secrets and enabling zero-downtime key rotation using RSA-256 signatures and JSON Web Key Sets (JWKS)."
     }
   ],
   "last_index": -1,
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-08"
 }

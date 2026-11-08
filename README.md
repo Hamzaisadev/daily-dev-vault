@@ -4,7 +4,7 @@
 ### *Production-Grade Engineering Deep Dives, Systems Architecture & High-Performance Patterns*
 
 [![Daily Automated Ship](https://github.com/Hamzaisadev/daily-dev-vault/actions/workflows/daily-entry.yml/badge.svg)](https://github.com/Hamzaisadev/daily-dev-vault/actions)
-[![Total Topics Shipped](https://img.shields.io/badge/Topics%20Shipped-5-34D399?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Hamzaisadev/daily-dev-vault)
+[![Total Topics Shipped](https://img.shields.io/badge/Topics%20Shipped-6-34D399?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Hamzaisadev/daily-dev-vault)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Hamzaisadev/daily-dev-vault?style=for-the-badge&color=FBBF24&logo=github)](https://github.com/Hamzaisadev/daily-dev-vault/stargazers)
 [![Follow @Hamzaisadev](https://img.shields.io/github/followers/Hamzaisadev?style=for-the-badge&color=0B111E&logo=github&label=Follow%20%40Hamzaisadev)](https://github.com/Hamzaisadev)
@@ -26,8 +26,8 @@ Most developer tutorials show toy examples. The **Daily Dev Vault** is different
 - **Enterprise-Grade**: Handles concurrency races, network partitions, memory limits, and failover scenarios.
 - **Automated Delivery**: Shipped daily via GitHub Actions with automated verification.
 
-### 🔥 Latest Entry: [Sub-Millisecond Peer-to-Peer Data Sync with WebRTC DataChannels](vault/backend/webrtc-data-channels-p2p.md)
-> *Architecting direct browser-to-browser UDP/SCTP data pipelines bypassing central application servers for zero-latency multiplayer and file synchronization.*
+### 🔥 Latest Entry: [Production-Grade JWT Architecture: Asymmetric RS256 & JWKS Key Rotation](vault/security/jwt-security-key-rotation.md)
+> *Eliminating shared symmetric secrets and enabling zero-downtime key rotation using RSA-256 signatures and JSON Web Key Sets (JWKS).*
 
 
 ---
@@ -41,6 +41,7 @@ Most developer tutorials show toy examples. The **Daily Dev Vault** is different
 | `2026-11-06` | **[Mitigating Cache Stampedes with the XFetch Probabilistic Algorithm](vault/performance/cache-stampede-xfetch.md)** | `Performance` | `Advanced` |
 | `2026-11-06` | **[Space-Efficient Cache Screening Using Probabilistic Bloom Filters](vault/algorithms/bloom-filters-cache-screening.md)** | `Algorithms` | `Intermediate` |
 | `2026-11-07` | **[Sub-Millisecond Peer-to-Peer Data Sync with WebRTC DataChannels](vault/backend/webrtc-data-channels-p2p.md)** | `Backend` | `Advanced` |
+| `2026-11-08` | **[Production-Grade JWT Architecture: Asymmetric RS256 & JWKS Key Rotation](vault/security/jwt-security-key-rotation.md)** | `Security` | `Advanced` |
 
 ---
 
