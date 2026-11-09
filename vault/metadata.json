@@ -47,8 +47,16 @@
       "difficulty": "Advanced",
       "published_date": "2026-11-08",
       "summary": "Eliminating shared symmetric secrets and enabling zero-downtime key rotation using RSA-256 signatures and JSON Web Key Sets (JWKS)."
+    },
+    {
+      "id": "distributed-rate-limiting",
+      "title": "Distributed Rate Limiting with Token Bucket & Atomic Redis Lua",
+      "category": "system-design",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-09",
+      "summary": "Building a fault-tolerant, race-condition-free distributed rate limiter handling 100k+ req/sec using Token Bucket algorithm executed atomically in Redis Lua."
     }
   ],
   "last_index": -1,
-  "last_updated": "2026-11-08"
+  "last_updated": "2026-11-09"
 }
