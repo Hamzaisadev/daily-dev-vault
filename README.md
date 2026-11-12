@@ -4,7 +4,7 @@
 ### *Production-Grade Engineering Deep Dives, Systems Architecture & High-Performance Patterns*
 
 [![Daily Automated Ship](https://github.com/Hamzaisadev/daily-dev-vault/actions/workflows/daily-entry.yml/badge.svg)](https://github.com/Hamzaisadev/daily-dev-vault/actions)
-[![Total Topics Shipped](https://img.shields.io/badge/Topics%20Shipped-9-34D399?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Hamzaisadev/daily-dev-vault)
+[![Total Topics Shipped](https://img.shields.io/badge/Topics%20Shipped-10-34D399?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Hamzaisadev/daily-dev-vault)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Hamzaisadev/daily-dev-vault?style=for-the-badge&color=FBBF24&logo=github)](https://github.com/Hamzaisadev/daily-dev-vault/stargazers)
 [![Follow @Hamzaisadev](https://img.shields.io/github/followers/Hamzaisadev?style=for-the-badge&color=0B111E&logo=github&label=Follow%20%40Hamzaisadev)](https://github.com/Hamzaisadev)
@@ -45,6 +45,7 @@ Most developer tutorials show toy examples. The **Daily Dev Vault** is different
 | `2026-11-09` | **[Distributed Rate Limiting with Token Bucket & Atomic Redis Lua](vault/system-design/distributed-rate-limiting.md)** | `System Design` | `Advanced` |
 | `2026-11-10` | **[Distributed Rate Limiting with Token Bucket & Atomic Redis Lua](vault/system-design/distributed-rate-limiting.md)** | `System Design` | `Advanced` |
 | `2026-11-11` | **[Distributed Rate Limiting with Token Bucket & Atomic Redis Lua](vault/system-design/distributed-rate-limiting.md)** | `System Design` | `Advanced` |
+| `2026-11-12` | **[Distributed Rate Limiting with Token Bucket & Atomic Redis Lua](vault/system-design/distributed-rate-limiting.md)** | `System Design` | `Advanced` |
 
 ---
 
