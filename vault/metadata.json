@@ -87,8 +87,16 @@
       "difficulty": "Advanced",
       "published_date": "2026-11-13",
       "summary": "Building a fault-tolerant, race-condition-free distributed rate limiter handling 100k+ req/sec using Token Bucket algorithm executed atomically in Redis Lua."
+    },
+    {
+      "id": "distributed-rate-limiting",
+      "title": "Distributed Rate Limiting with Token Bucket & Atomic Redis Lua",
+      "category": "system-design",
+      "difficulty": "Advanced",
+      "published_date": "2026-11-14",
+      "summary": "Building a fault-tolerant, race-condition-free distributed rate limiter handling 100k+ req/sec using Token Bucket algorithm executed atomically in Redis Lua."
     }
   ],
   "last_index": -1,
-  "last_updated": "2026-11-13"
+  "last_updated": "2026-11-14"
 }
