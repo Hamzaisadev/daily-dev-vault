@@ -1,6 +1,6 @@
 # ⚡ Distributed Rate Limiting with Token Bucket & Atomic Redis Lua
 
-> **Category**: System Design &nbsp;·&nbsp; **Difficulty**: `Advanced` &nbsp;·&nbsp; **Published**: 2026-11-15  
+> **Category**: System Design &nbsp;·&nbsp; **Difficulty**: `Advanced` &nbsp;·&nbsp; **Published**: 2026-11-16  
 > **Tags**: `#redis` `#distributed-systems` `#rate-limiting` `#backend`
 
 ---
